@@ -1,5 +1,6 @@
 import React from 'react'
-import { CallBackHHook } from './components/06-Memos/CallBackHook/CallBackHHook'
+// import { CallBackHHook } from './components/06-Memos/CallBackHook/CallBackHHook'
+import { Padre } from './components/TareaMemo/Padre'
 // import { MemoHook } from './components/06-Memos/MemoHook'
 // import { RealExampleRef } from './components/04-useRef/RealExampleRef'
 // import { Layout } from './components/05-useLayoutEffect/Layout'
@@ -24,7 +25,8 @@ export const HookApp = () => {
             {/* <Layout></Layout> */}
             {/* <Memorize></Memorize> */}
             {/* <MemoHook></MemoHook> */}
-            <CallBackHHook></CallBackHHook>
+            {/* <CallBackHHook></CallBackHHook> */}
+            <Padre></Padre>
         </>
     )
 }
